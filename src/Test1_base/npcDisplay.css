@@ -1,0 +1,36 @@
+
+.npcdisp-name { grid-area: nam; }
+.npcdisp-str { grid-area: str; }
+.npcdisp-dex { grid-area: dex; }
+.npcdisp-con { grid-area: con; }
+.npcdisp-wis { grid-area: wis; }
+.npcdisp-int { grid-area: int; }
+.npcdisp-cha { grid-area: cha; }
+.npcdisp-image { grid-area: img; }
+.npcdisp-hp { grid-area: htp; }
+.npcdisp-ac { grid-area: arc; }
+.npcdisp-atk {grid-area: atk; }
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'atk atk atk atk'
+        'nam nam nam nam'
+        'str img img wis'
+        'dex img img int'
+        'con img img cha'
+        'htp htp arc arc'
+        'htp htp arc arc';
+    gap: 2px;
+    padding: 20px;
+    width: 500px;
+    float: left;
+    height:500px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}

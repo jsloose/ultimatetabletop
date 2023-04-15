@@ -1,0 +1,68 @@
+
+.attack-main {
+    width: 500px;
+    padding: 20px;
+    float: right;
+}
+
+.attack-display {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+    height: 500px;
+}
+
+.atkgrid-s1 { grid-area: s1; }
+.atkgrid-s2 { grid-area: s2; }
+.atkgrid-s3 { grid-area: s3; }
+.atkgrid-s4 { grid-area: s4; }
+
+
+.atkgrid-container {
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+        's1 s2 s3 s4';
+    gap: 2px;
+    padding: 20px;
+    width: 250px
+}
+
+.atkgrid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.dmggrid-d1 { grid-area: d1; }
+.dmggrid-d2 { grid-area: d2; }
+.dmggrid-d3 { grid-area: d3; }
+.dmggrid-d4 { grid-area: d4; }
+.dmggrid-d5 { grid-area: d5; }
+.dmggrid-d6 { grid-area: d6; }
+.dmggrid-d7 { grid-area: d7; }
+.dmggrid-d8 { grid-area: d8; }
+.dmggrid-d9 { grid-area: d9; }
+.dmggrid-d0 { grid-area: d0; }
+
+
+.dmggrid-container {
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+        'd1 d2 d3'
+        'd4 d5 d6'
+        'd7 d8 d9'
+        'd0 d0 d0';
+    gap: 2px;
+    padding: 20px;
+    width: 250px;
+}
+
+.dmggrid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}

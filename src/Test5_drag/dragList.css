@@ -1,0 +1,39 @@
+.dragMenu {
+    width: 180px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: rgb(36, 36, 151);
+    float:left;
+
+    color:white;
+    padding: 0px;
+}
+
+.dragMenu > div {
+    width: 170px;
+    height: 40px;
+    margin: auto;
+}
+
+.dragMenu > div:first-child {
+    height: 40px;
+    padding: 10px 0px 0px 0px;
+    margin: auto;
+}
+
+.dragMenu > div > div {
+    width: 160px;
+    height: 30px;
+    border-radius: 0px;
+    background-color: rgb(16, 22, 68);
+    border-radius: 10px;
+    margin: auto;
+}
+
+.dragMenu > div > div:hover {
+    width: 164px;
+    height: 32px;
+    border-radius: 0px;
+    background-color: rgb(28, 34, 78);
+    border-radius: 10px;
+}

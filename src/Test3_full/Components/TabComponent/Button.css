@@ -1,0 +1,13 @@
+.button1 {
+    border: none;
+    background-color: #2b3b26d3;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .button1:hover {
+    background-color: #26313b9c;
+  }
